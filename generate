@@ -1,0 +1,23 @@
+Script started on Tue 21 Jun 2011 09:29:03 PM CAT
+]0;root@ubuntu-kondwa: /var/www/websiteroot@ubuntu-kondwa:/var/www/website# rake stats[Krake statscd dashboard_backbone/[12Prake stats[Kscript/generate on[K[Kcontroller dashboard
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/dashboard
+      exists  test/functional/
+      create  test/unit/helpers/
+      create  app/controllers/dashboard_controller.rb
+      create  test/functional/dashboard_controller_test.rb
+      create  app/helpers/dashboard_helper.rb
+      create  test/unit/helpers/dashboard_helper_test.rb
+]0;root@ubuntu-kondwa: /var/www/websiteroot@ubuntu-kondwa:/var/www/website# ls
+[0m[01;34mapp[0m  [01;34mconfig[0m  [01;34mdb[0m  [01;34mdoc[0m  generate  [01;34mlib[0m  [01;34mlog[0m  [01;34mpublic[0m  Rakefile  README  [01;34mscript[0m  [01;34mtest[0m  [01;34mtmp[0m  [01;34mvendor[0m
+]0;root@ubuntu-kondwa: /var/www/websiteroot@ubuntu-kondwa:/var/www/website# script/server 
+=> Booting Mongrel
+=> Rails 2.3.5 application starting on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+^CExiting
+]0;root@ubuntu-kondwa: /var/www/websiteroot@ubuntu-kondwa:/var/www/website# exit
+exit
+
+Script done on Tue 21 Jun 2011 09:31:19 PM CAT
